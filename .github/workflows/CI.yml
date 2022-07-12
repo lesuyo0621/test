@@ -39,6 +39,7 @@ jobs:
           status: ${{ job.status }}
           username: incoming-webhook
           channel: '#failure'
+          text: okay
         if:
           failure()
           
