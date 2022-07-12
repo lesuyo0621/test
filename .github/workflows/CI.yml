@@ -31,7 +31,7 @@ jobs:
       - name: Test with Gradle
         run: ./gradlew --info test
       
-      - name: Notify failure
+      #- name: Notify failure
         uses: 8398a7/action-slack@v3.12.0
         env:
           SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
