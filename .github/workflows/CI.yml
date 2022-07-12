@@ -37,7 +37,7 @@ jobs:
           SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
         with:
           status: ${{ job.status }}
-          username: github-actions
+          username: incoming-webhook
           channel: '#failure'
         if:
           failure()
